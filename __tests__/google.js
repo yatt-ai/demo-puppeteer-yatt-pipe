@@ -1,4 +1,4 @@
-const timeout = 20000
+const timeout = 50000
  
 describe(
   '/ (Search Home Page)',
