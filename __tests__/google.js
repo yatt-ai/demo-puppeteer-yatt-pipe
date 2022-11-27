@@ -24,7 +24,7 @@ describe(
       await page.keyboard.press('Enter');
       await page.waitForSelector('div#rcnt',{ visible: true});
       const results = await page.evaluate(() => document.querySelector('div#rcnt').innerText);
-      expect(results).toContain('Xray Test Management for Jira | Atlassian Marketplace');
+      expect(results).toContain('Xray - Native Test Management for Jira');
     })
   },
   timeout
