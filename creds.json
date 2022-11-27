@@ -1,0 +1,6 @@
+{
+  "target": {
+    "token": "yatt_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "base_url": "http://localhost:5000/"
+  }
+}
