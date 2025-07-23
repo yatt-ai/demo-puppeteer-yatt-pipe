@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="1" errors="0" time="5.521">
-  <testsuite name="/ (Search Home Page)" errors="0" failures="1" skipped="0" timestamp="2025-07-18T10:40:34" time="5.468" tests="1">
-    <testcase classname="e2e" name="/ (Search Home Page) should return a proper title" time="0.005">
-      <failure>Error: expect(received).toBe(expected) // Object.is equality
-
-Expected: &quot;Googlejijij&quot;
-Received: &quot;Google&quot;
-    at Object.toBe (/Users/sky/Documents/remote/rocksteady/demo-puppeteer-yatt-pipe/__tests__/google.js:18:21)</failure>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="3.65">
+  <testsuite name="/ (Search Home Page)" errors="0" failures="0" skipped="0" timestamp="2025-07-23T06:47:32" time="3.615" tests="1">
+    <testcase classname="/ (Search Home Page) should return a proper title" name="/ (Search Home Page) should return a proper title" time="0.003">
     </testcase>
   </testsuite>
 </testsuites>
