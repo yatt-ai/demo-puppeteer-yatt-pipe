@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="3.65">
-  <testsuite name="/ (Search Home Page)" errors="0" failures="0" skipped="0" timestamp="2025-07-23T06:47:32" time="3.615" tests="1">
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="8.262">
+  <testsuite name="/ (Search Home Page)" errors="0" failures="0" skipped="0" timestamp="2025-07-23T06:55:23" time="8.239" tests="1">
     <testcase classname="/ (Search Home Page) should return a proper title" name="/ (Search Home Page) should return a proper title" time="0.003">
     </testcase>
   </testsuite>

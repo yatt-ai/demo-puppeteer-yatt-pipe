@@ -3,7 +3,11 @@ module.exports = {
   globalTeardown: './teardown.js',
   testEnvironment: './puppeteer_environment.js',
   reporters: [
-    "default",
-    ["jest-junit", {"classNameTemplate": "e2e","titleTemplate": "{classname} {title}"}]
+    'default',
+    [
+      'jest-junit',
+      { classNameTemplate: 'e2e', titleTemplate: '{classname} {title}' },
+    ],
   ],
+  testMatch: ['**/tests/**/*.js', '**/?(*.)+(spec|test).js'],
 }
